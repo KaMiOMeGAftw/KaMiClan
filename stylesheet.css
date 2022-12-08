@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* .Ellipse1{
+    position: absolute;
+    border-radius: 50%;
+    bottom: -150px;
+    right: -150px;
+    background-color: #121212;
+    width: 500px;
+    height: 500px;
+
+} */
+
+.Ellipse2{
+    position: absolute;
+    border-radius: 50%;
+    width: 652px;
+    height: 646px;
+    left: -271px;
+    top: 606px;
+    background-color: #121212;
+}
+
+body{
+
+    background-color:red ;
+    background-color: #000;
+    overflow: hidden;
+
+}
+.main{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+
+.left{
+
+    width:50%;
+
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.logo{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    padding: 30px 0 0 40px;
+
+
+
+}
+
+.text{
+
+    width: 100%;
+
+    height: 100vh;
+
+    justify-content: center;
+
+    color: white;
+
+    font-size: 70px;
+
+    display: flex;
+
+  flex-direction: column;
+
+    align-items: center;
+
+    margin-left: 200px;
+
+}
+
+#kamilogo{
+    position: absolute;
+    height: 100%;
+    right: -100px;
+    bottom: -100px;
+    z-index: -1;
+}
+
+
+
